@@ -1,0 +1,8 @@
+{
+  "url": "https://godoc.org",
+  "gulp": {
+    "src": "./src/main.scss",
+    "dest": "./build/",
+    "watch": "./src/**/*.scss"
+  }
+}

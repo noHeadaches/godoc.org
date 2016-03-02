@@ -1,0 +1,29 @@
+/* No Headaches */
+/* http://github.com/noHeadaches */
+@import 'colors';
+
+html > body {
+  @import 'header';
+  @import 'pre';
+  @import 'footer';
+
+  background-color: $color-dark;
+  color: $color-pink;
+
+  h1, h2, h3, h4, h5 {
+    color: $color-green;
+  }
+
+  a {
+    color: $color-pink-dead;
+
+    &:hover {
+      color: transparentize($color-pink-dead, 0.18);
+    }
+  }
+
+  input.form-control {
+    background: $color-dark-bright;
+    color: $color-green;
+  }
+}

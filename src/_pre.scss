@@ -1,0 +1,16 @@
+@import 'colors';
+
+pre {
+  background: $color-dark-bright;
+
+  border-color: $color-pink;
+  color: $color-pink-bright;
+
+  a {
+    color: $color-green;
+  }
+
+  .com {
+    color: $color-pink-dead;
+  }
+}

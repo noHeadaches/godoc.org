@@ -1,0 +1,10 @@
+@import 'colors';
+
+button.btn.btn-default {
+  background: $color-dark-brighter;
+  color: $color-green;
+
+  &:hover {
+    background: $color-dark-bright;
+  }
+}

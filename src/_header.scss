@@ -1,0 +1,38 @@
+@import 'colors';
+
+
+nav.navbar.navbar-default {
+  background: $color-dark-brighter;
+  border: 0;
+
+  ul.nav.navbar-nav > li > a:hover, ul.nav.navbar-nav > li > a:focus {
+    color: $color-pink-bright;
+  }
+
+  ul.nav.navbar-nav > li {
+    &:hover {
+      a {
+        color: $color-pink-bright;
+      }
+    }
+
+    &.active {
+      a {
+        background: lighten($color-dark-brighter, 2%);
+        color: $color-pink;
+      }
+    }
+  }
+
+  a.navbar-brand {
+    color: $color-pink;
+  }
+}
+
+.jumbotron, #x-projnav, #x-search-query {
+  background: $color-dark-bright;
+}
+
+#x-search-query {
+  color: $color-green;
+}
